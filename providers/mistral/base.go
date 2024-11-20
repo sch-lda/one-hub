@@ -15,6 +15,7 @@ type MistralProviderFactory struct{}
 
 type MistralProvider struct {
 	base.BaseProvider
+	ImageUrl string `json:"image_url"`
 }
 
 // 创建 MistralProvider
